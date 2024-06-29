@@ -1,0 +1,384 @@
+html,body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0px 0px 0px 0px;
+}
+body{
+    background-color:#C4548C;
+}
+header{
+    background-color: #42162C;
+    color:#E5E0F4 ;
+    height: 8vh;
+    position: sticky;
+}
+li{
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 40%;
+    margin-left: 40px;
+}
+#section1{
+    margin-top: 15px;
+background-color: azure;
+}
+.name{
+   margin-left: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-indent: 40px;
+}
+#section2{
+    margin-top: 15px;
+    background-color: azure;
+    border: 5px lemonchiffon solid;
+}
+#section3{
+    margin-top: 25px;
+    background-color: azure;
+    border: 5px lemonchiffon solid;
+}
+#section4{
+    margin-top: 25px;
+    background-color: azure;
+    border: 5px lemonchiffon solid;
+}
+#section5{
+    margin-top: 25px;
+    background-color: azure;
+    border: 5px lemonchiffon solid;
+}
+#section6{
+    margin-top: 25px;
+    background-color: azure;
+    border: 5px lemonchiffon solid;
+}
+.med{
+    height: 50vh;
+    width: 20vw;
+    background-color: #E3DBDE;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 5px solid gainsboro;
+}
+.med:hover{
+    border: 1px solid red;
+    opacity: 5;
+    transform: scale(1.05);
+    transition: all;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition-delay: 5ms;
+    transition-duration: 40ms;
+}
+.med_img{
+    height: 20vh;
+    width: 16vw;
+    border: 2px greenyellow solid;
+    width: fit-content;
+}
+#btn1{
+    margin-right: 50px;
+}
+#btn2{
+    margin-right: 50px;
+}
+/* #btn3{
+    margin-right: 50px;
+}
+#btn4{
+    margin-right: 50px;
+}
+#btn5{
+    margin-right: 50px;
+}
+#btn6{
+    margin-right: 50px;
+}
+#btn7{
+    margin-right: 50px;
+}
+#btn8{
+    margin-right: 50px;
+}
+#btn9{
+    margin-right: 50px;
+}
+#btn10{
+    margin-right: 50px;
+}
+#btn11{
+    margin-right: 50px;
+}
+#btn12{
+    margin-right: 50px;
+}
+#btn13{
+    margin-right: 50px;
+} */
+#button{
+    margin-left: 15px;
+    width: 110px;
+    height: 4vh;
+    border-radius: 20px;
+    color:black;
+    background-color: #c49eaf;
+}
+#prc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#prc8{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.discount{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: goldenrod;
+    font-size: 20px;
+}
+#rat{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat3{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat4{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat5{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat6{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat7{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+#rat8{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: green;
+}
+.company{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: blueviolet;
+}
+#qty{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#qty8{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #42162C;
+}
+#dtl{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#dtl8{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#size{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: brown;
+}
+footer{
+    background-color: brown;
+    opacity: 8;
+    color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+#lg{
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#imp{
+    display: inline;
+}
+@media(max-width:460px) {
+    li{
+        font-size: 10px;
+        margin-left:0px;
+        display:inline-block;
+    }
+    #lg{
+        margin-left: 0px;
+    }
+   
+    #button{
+        margin-left: 15px;
+        width: 70px;
+        height: 4vh;
+        border-radius: 20px;
+        color:black;
+        background-color: #c49eaf;
+    }
+    #Symptom{
+        width:100px;
+        height: 10px;
+        margin-left: 0px;
+    }
+    #btn_men{
+        background-color: rgb(213, 128, 23);
+        border-radius: 10px;
+        visibility: visible;
+    }
+    .img{
+        width: 30px;
+        height: 50px;
+    }
+    .med{
+        height: 60vh;
+        width: 73vw;
+        display: block;
+        margin-top: 10px;
+        
+    }
+    .med_img{
+     height: 80px;
+      
+    }
+    #table{
+        height: 10vh;
+        width: 73vw;
+    }
+    #dtl{
+        height: 70px;
+    }
+    .name{
+        display: inline;
+        position: relative;
+        left: -10px;
+        margin-left: 30px;
+    }
+}

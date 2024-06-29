@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping.css">
+    
+</head>
+<body>
+    <header><ul><li id="lg">www.patienttracker.com</li>
+        
+        <li id="imp"><input type="text" placeholder="Enter Symptom or disease" name="symptom" id="Symptom"><button id="button" onclick="search();">Search</button></li>
+        <li>Account</li>
+        <li>Home</li>
+        <li>Need Help</li>
+        <li>Dashboard</li>
+        </ul>
+    </header>
+    <section id="section1">
+     <img src="https://static.vecteezy.com/system/resources/previews/001/828/651/non_2x/man-with-high-fever-icon-vector.jpg" class="img">
+     <img src="https://tiimg.tistatic.com/fp/1/007/567/cheston-cold-tablets-relief-from-cough-cold--510.jpg" class="img">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCghHRVT73mS9thb_NFRtDPmIbQ51N9F8jkebzv7cM9irnbWtZ5z02p8W94kiWwYJZi0c&usqp=CAU" class="img">
+     <img src="https://5.imimg.com/data5/SELLER/Default/2022/8/BX/EE/KQ/52165316/1l-dettol-antiseptic-liquid.jpg" class="img">
+     <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/vitamin-supplement/3/1/i/30-riboflavin-magnesium-coenzyme-q10-headache-tablet-migraine-original-imagsgmrtkvqsb9g.jpeg?q=90&crop=false" class="img">
+     <img src="https://www.charak.com/wp-content/uploads/2020/07/FORTYFITT-TAB-OPTION-2-scaled.jpg" class="img">
+     <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/329127780/FC/VR/HK/8747740/buscogast-10-mg-tablet.jpeg" class="img">
+     <img src="https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/w6ks67ynvnou81e4lpzb.jpg" class="img">
+     <br>
+     <ul><li class="name">Fever</li>
+        <li class="name">Common Cold</li>
+        <li class="name">Diziness</li>
+        <li class="name">Antiseptic</li>
+        <li class="name">Migrane</li>
+        <li class="name">fatigue</li>
+        <li class="name">Stomach Pain</li>
+        <li class="name">Skin rashes</li></ul>
+    </section>
+    <section id="section2">
+         <div class="med">
+            <!-- <table class="tb">
+                <tr><td>Price</td><td>500</td></tr>
+                <tr><td>Class</td><td>200</td></tr>
+            </table> -->
+           <table id="table">
+            <tr><td colspan="2" id="dtl"><img src="https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/w6ks67ynvnou81e4lpzb.jpg" class='med_img' style="width: 300px;"></td></tr>
+            <tr><td>Size</td><td id="size">20gm</td></tr> 
+            <tr><td>Price in Rupees</td><td id="prc">500</td></tr>
+            <tr><td>Discount in percentage </td><td id="discount">10</td></tr>
+            <tr><td id="rating">Rating</td>
+                <td id="rat">4.5</td></tr>
+            <tr><td>Company</td><td class="company">Cipla</td></tr>
+            <tr><td>Quantity <button id="btn1">+</button> <button id="btn2">-</button></td>
+                <td id="qty">1</td></tr>
+            <tr><td colspan="2" id="fnl"><button id="buy_now">Buy Now</button></td></tr>
+          </table>
+         </div>
+         <div class="med">
+            <table id="table1">
+              <tr><td colspan="2" id="dtl2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvyZyw6015NdqtfLlqpI90ttyC0IQt0HMaPVqSESSzmw&s" class='med_img' style="width: 300px;"></td></tr>
+              <tr><td>Size</td><td id="size">25gm</td></tr>
+              <tr><td>Price in Rupees</td>
+                  <td id='prc2'>390</td></tr>
+              <tr><td>Discount in percentage </td><td class="discount">5</td></tr>
+              <tr><td id="rating2">Rating</td>
+                  <td id="rat2">4.8</td></tr>
+              <tr><td>Company</td><td class="company">Quantum</td></tr>
+              <tr><td>Quantity <button id="btn3">+</button> <button id="btn4">-</button></td>
+                  <td id="qty2">1</td></tr>
+              <tr><td colspan="2" id="fnl1"><button id="buy_now2">Buy Now</button></td></tr>
+            </table>
+           </div>
+           <div class="med">
+            <table id="table2">
+              <tr><td colspan="2" id="dtl3"><img src="https://images-cdn.ubuy.co.in/66052caeb6054775e16ae499-medcosa-adult-rash-cream-fast-relief.jpg" class='med_img' style="width: 300px;"></td></tr>
+              <tr><td>Size</td><td id="size">350gm</td></tr>
+              <tr><td>Price in Rupees</td>
+                  <td id='prc3'>5,299</td></tr>
+              <tr><td>Discount in percentage </td><td class="discount">7</td></tr>
+              <tr><td id="rating3">Rating</td>
+                  <td id="rat3">4.5</td></tr>
+              <tr><td>Company</td><td class="company">UBNA USA</td></tr>
+              <tr><td>Quantity <button id="btn5">+</button> <button id="btn6">-</button></td>
+                  <td id="qty3">1</td></tr>
+              <tr><td colspan="2" id="fnl2"><button id="buy_now3">Buy Now</button></td></tr>
+            </table>
+           </div>
+           <div class="med">
+            <table id="table3">
+              <tr><td colspan="2" id="dtl4"><img src="https://himalayawellness.in/cdn/shop/products/anti-rash-cream-20g.jpg?v=1622099353" class='med_img' style="width: 300px;"></td></tr>
+              <tr><td>Size</td><td id="size">20gm</td></tr>
+              <tr><td>Price in Rupees</td>
+                  <td id='prc4'>85</td></tr>
+              <tr><td>Discount in percentage </td><td class="discount">3</td></tr>
+              <tr><td id="rating4">Rating</td>
+                  <td id="rat4">4.5</td></tr>
+              <tr><td>Company</td><td class="company">Himalaya</td></tr>
+              <tr><td>Quantity <button id="btn7">+</button> <button id="btn8">-</button></td>
+                  <td id="qty4">1</td></tr>
+              <tr><td colspan="2" id="fnl3"><button id="buy_now4">Buy Now</button></td></tr>
+            </table>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="med">
+           <!-- <table class="tb">
+               <tr><td>Price</td><td>500</td></tr>
+               <tr><td>Class</td><td>200</td></tr>
+           </table> -->
+          <table id="table4">
+           <tr><td colspan="2" id="dtl5"><img src="https://assets.unilab.com.ph/uploads/Common/Products/Rashfree/2rashfree.jpg" class='med_img' style="width: 300px;"></td></tr>
+           <tr><td>Size</td><td id="size">100gm</td></tr> 
+           <tr><td>Price in Rupees</td><td id="prc5">149</td></tr>
+           <tr><td>Discount in percentage </td><td id="discount">10</td></tr>
+           <tr><td id="rating5">Rating</td>
+               <td id="rat5">4.5</td></tr>
+           <tr><td>Company</td><td class="company">Unilab</td></tr>
+           <tr><td>Quantity <button id="btn9">+</button> <button id="btn10">-</button></td>
+               <td id="qty5">1</td></tr>
+           <tr><td colspan="2" id="fnl4"><button id="buy_now5">Buy Now</button></td></tr>
+         </table>
+        </div>
+        <div class="med">
+           <table id="table5">
+             <tr><td colspan="2" id="dtl6"><img src="https://www.glowbytressmart.com/cdn/shop/products/ZEN_LUX329_2.jpg?v=1646738637" class='med_img' style="width: 300px;"></td></tr>
+             <tr><td>Size</td><td id="size">25gm</td></tr>
+             <tr><td>Price in Rupees</td>
+                 <td id='prc6'>410</td></tr>
+             <tr><td>Discount in percentage </td><td class="discount">5</td></tr>
+             <tr><td id="rating6">Rating</td>
+                 <td id="rat6">4.8</td></tr>
+             <tr><td>Company</td><td class="company">Sa-glown</td></tr>
+             <tr><td>Quantity <button id="btn11">+</button> <button id="btn12">-</button></td>
+                 <td id="qty6">1</td></tr>
+             <tr><td colspan="2" id="fnl5"><button id="buy_now6">Buy Now</button></td></tr>
+           </table>
+          </div>
+          <div class="med">
+           <table id="table6">
+             <tr><td colspan="2" id="dtl7"><img src="https://cdn.shopify.com/s/files/1/0652/8555/4404/products/combo6.jpg?v=1669282461&width=550" class='med_img' style="width: 300px;"></td></tr>
+             <tr><td>Size</td><td id="size">100gm</td></tr>
+             <tr><td>Price in Rupees</td>
+                 <td id='prc7'>1399</td></tr>
+             <tr><td>Discount in percentage </td><td class="discount">7</td></tr>
+             <tr><td id="rating7">Rating</td>
+                 <td id="rat7">4.5</td></tr>
+             <tr><td>Company</td><td class="company">Kinster</td></tr>
+             <tr><td>Quantity <button id="btn13">+</button> <button id="btn14">-</button></td>
+                 <td id="qty7">1</td></tr>
+             <tr><td colspan="2" id="fnl6"><button id="buy_now7">Buy Now</button></td></tr>
+           </table>
+          </div>
+          <div class="med">
+           <table id="table7">
+             <tr><td colspan="2" id="dtl8"><img src="https://www.clickoncare.com/cdn/shop/products/rvp-b-tex-ointment_-14gm-6651608645.jpg?v=1681809737" class='med_img' style="width: 300px;"></td></tr>
+             <tr><td>Size</td><td id="size">14gm</td></tr>
+             <tr><td>Price in Rupees</td>
+                 <td id='prc8'>30</td></tr>
+             <tr><td>Discount in percentage </td><td class="discount">3</td></tr>
+             <tr><td id="rating8">Rating</td>
+                 <td id="rat8">4.5</td></tr>
+             <tr><td>Company</td><td class="company">B-Tex</td></tr>
+             <tr><td>Quantity <button id="btn15">+</button> <button id="btn16">-</button></td>
+                 <td id="qty8">1</td></tr>
+             <tr><td colspan="2" id="fnl7"><button id="buy_now8">Buy Now</button></td></tr>
+           </table>
+       </div>
+   </section>
+   <section id="section4">
+    <div class="med">
+       <!-- <table class="tb">
+           <tr><td>Price</td><td>500</td></tr>
+           <tr><td>Class</td><td>200</td></tr>
+       </table> -->
+      <table id="table8">
+       <tr><td colspan="2" id="dtl"><img src="https://5.imimg.com/data5/SELLER/Default/2022/9/IV/UY/CG/75459511/500mg-paracetamol-tablet.jpg" class='med_img' style="width: 300px;"></td></tr>
+       <tr><td>Size</td><td id="size">500mg</td></tr> 
+       <tr><td>Price in Rupees</td><td id="prc">10</td></tr>
+       <tr><td>Discount in percentage </td><td id="discount">10</td></tr>
+       <tr><td id="rating">Rating</td>
+           <td id="rat">4.5</td></tr>
+       <tr><td>Company</td><td class="company">Aden</td></tr>
+       <tr><td>Quantity <button id="btn1">+</button> <button id="btn2">-</button></td>
+           <td id="qty">1</td></tr>
+       <tr><td colspan="2" id="fnl"><button id="buy_now">Buy Now</button></td></tr>
+     </table>
+    </div>
+    <div class="med">
+       <table id="table9">
+         <tr><td colspan="2" id="dtl2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb_nSyMAyPbNidMFf3a7zTgsEECi_NqUo2yqOFrchusA&s" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">75gm</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc2'>105</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">5</td></tr>
+         <tr><td id="rating2">Rating</td>
+             <td id="rat2">4.8</td></tr>
+         <tr><td>Company</td><td class="company">pfizz</td></tr>
+         <tr><td>Quantity <button id="btn3">+</button> <button id="btn4">-</button></td>
+             <td id="qty2">1</td></tr>
+         <tr><td colspan="2" id="fnl1"><button id="buy_now2">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table10">
+         <tr><td colspan="2" id="dtl3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECgnLV99W6W6hlgF_UN245UnAzSCtQzOspukbYyU51w&s" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">200mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc3'>1199</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">7</td></tr>
+         <tr><td id="rating3">Rating</td>
+             <td id="rat3">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Advil</td></tr>
+         <tr><td>Quantity <button id="btn5">+</button> <button id="btn6">-</button></td>
+             <td id="qty3">1</td></tr>
+         <tr><td colspan="2" id="fnl2"><button id="buy_now3">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table11">
+         <tr><td colspan="2" id="dtl4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMv4N5BkmC8oPDV0akKYucGbjhhXCuuxJ2dH4pa2YjQ&s" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">20gm</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc4'>170</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">3</td></tr>
+         <tr><td id="rating4">Rating</td>
+             <td id="rat4">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Acetamophene</td></tr>
+         <tr><td>Quantity <button id="btn7">+</button> <button id="btn8">-</button></td>
+             <td id="qty4">1</td></tr>
+         <tr><td colspan="2" id="fnl3"><button id="buy_now4">Buy Now</button></td></tr>
+       </table>
+   </div>
+</section>
+<section id="section5">
+    <div class="med">
+       <!-- <table class="tb">
+           <tr><td>Price</td><td>500</td></tr>
+           <tr><td>Class</td><td>200</td></tr>
+       </table> -->
+      <table id="table11">
+       <tr><td colspan="2" id="dtl"><img src="https://5.imimg.com/data5/SELLER/Default/2022/10/LS/OF/DQ/151454344/migraine-medicine-tablets.jpg" class='med_img' style="width: 300px;"></td></tr>
+       <tr><td>Size</td><td id="size">500mg</td></tr> 
+       <tr><td>Price in Rupees</td><td id="prc">499</td></tr>
+       <tr><td>Discount in percentage </td><td id="discount">10</td></tr>
+       <tr><td id="rating">Rating</td>
+           <td id="rat">4.5</td></tr>
+       <tr><td>Company</td><td class="company">Migrane</td></tr>
+       <tr><td>Quantity <button id="btn1">+</button> <button id="btn2">-</button></td>
+           <td id="qty">1</td></tr>
+       <tr><td colspan="2" id="fnl"><button id="buy_now">Buy Now</button></td></tr>
+     </table>
+    </div>
+    <div class="med">
+       <table id="table12">
+         <tr><td colspan="2" id="dtl2"><img src="https://5.imimg.com/data5/SELLER/Default/2021/12/SV/QQ/ZH/14929812/rizatriptan-tablet.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">10mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc2'>104</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">5</td></tr>
+         <tr><td id="rating2">Rating</td>
+             <td id="rat2">4.8</td></tr>
+         <tr><td>Company</td><td class="company">Riztrax</td></tr>
+         <tr><td>Quantity <button id="btn3">+</button> <button id="btn4">-</button></td>
+             <td id="qty2">1</td></tr>
+         <tr><td colspan="2" id="fnl1"><button id="buy_now2">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table13">
+         <tr><td colspan="2" id="dtl3"><img src="https://www.neuraclelife.com/wp-content/uploads/2022/02/FLUNZI-300x300.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">10mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc3'>299</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">7</td></tr>
+         <tr><td id="rating3">Rating</td>
+             <td id="rat3">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Flunzi</td></tr>
+         <tr><td>Quantity <button id="btn5">+</button> <button id="btn6">-</button></td>
+             <td id="qty3">1</td></tr>
+         <tr><td colspan="2" id="fnl2"><button id="buy_now3">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table14">
+         <tr><td colspan="2" id="dtl4"><img src="https://images-cdn.ubuy.co.in/65f7a9c6acf4e012a7435698-excedrin-migraine-caplets-for-migraine.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">250mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc4'>99</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">3</td></tr>
+         <tr><td id="rating4">Rating</td>
+             <td id="rat4">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Excedrine</td></tr>
+         <tr><td>Quantity <button id="btn7">+</button> <button id="btn8">-</button></td>
+             <td id="qty4">1</td></tr>
+         <tr><td colspan="2" id="fnl3"><button id="buy_now4">Buy Now</button></td></tr>
+       </table>
+   </div>
+</section>
+<section id="section6">
+    <div class="med">
+       <!-- <table class="tb">
+           <tr><td>Price</td><td>500</td></tr>
+           <tr><td>Class</td><td>200</td></tr>
+       </table> -->
+      <table id="table15">
+       <tr><td colspan="2" id="dtl"><img src="https://cpimg.tistatic.com/06583517/b/4/Cetirizine-Tablets.jpg" class='med_img' style="width: 300px;"></td></tr>
+       <tr><td>Size</td><td id="size">500mg</td></tr> 
+       <tr><td>Price in Rupees</td><td id="prc">109</td></tr>
+       <tr><td>Discount in percentage </td><td id="discount">10</td></tr>
+       <tr><td id="rating">Rating</td>
+           <td id="rat">4.5</td></tr>
+       <tr><td>Company</td><td class="company">Ocacet</td></tr>
+       <tr><td>Quantity <button id="btn1">+</button> <button id="btn2">-</button></td>
+           <td id="qty">1</td></tr>
+       <tr><td colspan="2" id="fnl"><button id="buy_now">Buy Now</button></td></tr>
+     </table>
+    </div>
+    <div class="med">
+       <table id="table16">
+         <tr><td colspan="2" id="dtl2"><img src="https://5.imimg.com/data5/SELLER/Default/2023/6/319582048/GD/RG/OD/135658020/paracetamol-phenylephrine-hcl-cetirizine-d-hcl-tablets.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">50mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc2'>49</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">5</td></tr>
+         <tr><td id="rating2">Rating</td>
+             <td id="rat2">4.8</td></tr>
+         <tr><td>Company</td><td class="company">finacold</td></tr>
+         <tr><td>Quantity <button id="btn3">+</button> <button id="btn4">-</button></td>
+             <td id="qty2">1</td></tr>
+         <tr><td colspan="2" id="fnl1"><button id="buy_now2">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table17">
+         <tr><td colspan="2" id="dtl3"><img src="https://5.imimg.com/data5/SELLER/Default/2022/9/NK/KI/TG/76282239/dexamethasone-tablet-4-mg.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">4mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc3'>199</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">7</td></tr>
+         <tr><td id="rating3">Rating</td>
+             <td id="rat3">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Decmax</td></tr>
+         <tr><td>Quantity <button id="btn5">+</button> <button id="btn6">-</button></td>
+             <td id="qty3">1</td></tr>
+         <tr><td colspan="2" id="fnl2"><button id="buy_now3">Buy Now</button></td></tr>
+       </table>
+      </div>
+      <div class="med">
+       <table id="table18">
+         <tr><td colspan="2" id="dtl4"><img src="https://5.imimg.com/data5/SELLER/Default/2023/6/313523745/VR/XO/ZW/188521720/montelukast-sodium-levocetirizine-hydrochloride-tablet.jpg" class='med_img' style="width: 300px;"></td></tr>
+         <tr><td>Size</td><td id="size">250mg</td></tr>
+         <tr><td>Price in Rupees</td>
+             <td id='prc4'>1299</td></tr>
+         <tr><td>Discount in percentage </td><td class="discount">3</td></tr>
+         <tr><td id="rating4">Rating</td>
+             <td id="rat4">4.5</td></tr>
+         <tr><td>Company</td><td class="company">Levorake-M</td></tr>
+         <tr><td>Quantity <button id="btn7">+</button> <button id="btn8">-</button></td>
+             <td id="qty4">1</td></tr>
+         <tr><td colspan="2" id="fnl3"><button id="buy_now4">Buy Now</button></td></tr>
+       </table>
+   </div>
+</section>
+<footer>Copyright 2024<br>A parent company of patienttracker.com</footer>
+    <script src="shopping.js"></script>
+</body>
+</html>

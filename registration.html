@@ -15,51 +15,52 @@
  <ul><li id="detail1"><b>User Profile</b></li>
  <li  id="detail2"><b>Residential Address</b></li>
 <li  id="detail3"><b>Alternative Detail</b></li>
-<li  id="detail4"><b>Upload Documents </b></li>
+<li id="detail4"><a href="ptrackermain.html" style="color: blue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Click to Login</a></li>
 </ul>
 </div><div id="border"><div id="form1"><h3 id="user">User Profile</h3><hr style="margin-top: 10px;">
-  <form>
+  <form action="/register" method="post">
 <table border="0px" style="margin: 20px 0px 0px 20px;">
         <tr>
-          <td id="fname">First Name</td>
-          <td id="mname">Middle Name</td>
-          <td id="lname">Last Name</td>
+          <td id="fname">Full_Name</td>
+          <td id="mname">Password</td>
+          <td id="lname">Confirm Password</td>
         </tr>
         <tr>
-            <td class="box"><input type="text" placeholder="Patient Full Name" id="first" required></td>
-            <td class="box"><input type="text" placeholder="Patient Middle Name" id="middle"></td>
-            <td class="box"><input type="text" placeholder="Patient Last Name" id="last" required></td>
+            <td class="box"><input type="text" placeholder="Patient Full Name" id="first" name="fname" required></td>
+            <td class="box"><input type="password" placeholder="Enter Strong Password" id="middle" name="password" required></td>
+            <td class="box"><input type="password" placeholder="Confirm Password" id="last" name="cfpassword" required></td>
           </tr>
           <tr>
             <td id="mobno">Mobile No.</td>
             <td id="em1">Email Id</td>
-            <td id="dob">DOB</td>
+            <td id="dob">Date</td>
+            <td id="gender"> Gender</td>
           </tr>
           <tr>
-            <td class="box"><input type="tel" placeholder="+91" id="phone" required></td>
-            <td class="box"><input type="email" placeholder="useremail@gmail.com" id="email" required></td>
-            <td class="box"><input type="date"></td>
+            <td class="box"><input type="tel" placeholder="+91" id="phone" name="mobno" required></td>
+            <td class="box"><input type="email" placeholder="useremail@gmail.com" id="email" name="username" required></td>
+            <td class="box"><input type="date" name="dob" id="dob"></td>
+            <td><select name="gender"><option> Male</option><option>Female</option></select></td>
           </tr>
           <tr>
             <td  id="inst1"><li>Invalid Patient First Name</li> </td></tr>
-            <tr><td  id="inst2"><li>Invalid Last name</li></td></tr>
+            <tr><td  id="inst2"><li>Password not matched</li></td></tr>
             <tr><td id="inst3"><li>Invalid Phone No.</li></td></tr>
             <td id="inst4" ><li>Invalid Email</li></td>
           </tr>
           <button onclick="learn();" id="btn1">Verify</button>
-</table></form>
-<div id="form2"><h3 id="user">Residential Address</h3><hr style="margin-top: 10px;">
-  <form>
+</table>
+<div id="form2"><h3 id="user">Residential Address/Alternative Detail</h3><hr style="margin-top: 10px;">
   <table border="0px" style="margin: 20px 0px 0px 20px;">
           <tr>
             <td id="fname">Town/Village</td>
             <td id="mname">Postoffice</td>
-            <td id="lname">Locality/Tehsil</td>
+            <td id="lname">Age</td>
           </tr>
           <tr>
-              <td class="box"><input type="text" placeholder="Patient Town Name" id="first" required></td>
-              <td class="box"><input type="text" placeholder="Patient Postoffice" id="middle"></td>
-              <td class="box"><input type="text" placeholder="Patient Locality" id="last" required></td>
+              <td class="box"><input type="text" placeholder="Patient Town Name" id="first" name="town" required></td>
+              <td class="box"><input type="text" placeholder="Patient Postoffice" id="middle" name="postoffice"></td>
+              <td class="box"><input type="number" placeholder="Patient Age" id="last" name="age" required></td>
             </tr>
             <tr>
               <td id="mobno">District</td>
@@ -67,8 +68,8 @@
               <td id="dob">Pincode</td>
             </tr>
             <tr>
-              <td class="box"><input type="text" placeholder="District" id="phone" required></td>
-              <td class="box" id="state"><select>
+              <td class="box"><input type="text" placeholder="District" id="phone" name="district" required></td>
+              <td class="box" id="state" ><select name="state">
                 <option>Delhi</option>
                 <option>Uttarpradesh</option>
                 <option>Bihar</option>
@@ -86,36 +87,53 @@
                 <option>Meghalay</option>
                 <option>Assam</option>
               </select></td>
-              <td class="box"><input type="number" id="pincode"></td>
+              <td class="box"><input type="number" id="pincode" name="pincode"></td>
             </tr>
-  </table>
-  <button onclick="learn();" id="btn1">Verify</button>
-  <div id="form3"><h3 id="user">Alternative Detail/Upload Document</h3><hr style="margin-top: 10px;">
-    <table border="0px" style="margin: 20px 0px 0px 20px;">
             <tr>
-              <td id="fname">Nominee Name</td>
+              <td id="fname">Payee Name</td>
               <td id="mname">Relation </td>
               <td id="lname"> Phone No.</td>
             </tr>
             <tr>
-                <td class="box"><input type="text" placeholder="Patient Full Name" id="first" required></td>
-                <td class="box"><input type="text" placeholder="Patient Middle Name" id="middle"></td>
-                <td class="box"><input type="text" placeholder="" id="last" required></td>
+                <td class="box"><input type="text" placeholder="Person Who pay expenses" id="first" name="nominee" required></td>
+                <td class="box"><input type="text" placeholder="Patient Realtion with you id="middle" name="relation"></td>
+                <td class="box"><input type="text" placeholder="+91" id="last" name="phoneno" required></td>
               </tr>
+              </table> 
+              <div id="form4"><h3 id="user">Appointment Detail</h3><hr style="margin-top: 10px;">
+                <table border="0px" style="margin: 20px 0px 0px 20px;">
+                          <tr>
+                            <td id="mobno">Time</td>
+                            <td id="em1">Mode</td>
+                            <td id="dob">Date</td></tr>
+                            <tr>
+                              <td class="box"><input type="time" placeholder="+91" id="phone" required name="time"></td>
+                              <td class="box"><select name="mode"><option>Online</option><option>Offline</option>
+                              </select></td>
+                              <td class="box"><input type="Date" name="date"></td></tr>
+                            <tr><td id="code">Discount code any</td>
+                          </tr>
+                          
+                           <tr> <td class="box"><input type="text" name="screte"></td>
+                          </tr>
+                          <tr>  <a href="ptrackermain.html"><button>Submit</button></a></tr>
+                          </table> </form>
+<!--   
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <div id="form3"><h3 id="user">Upload Document</h3><hr style="margin-top: 10px;">
+    <table border="0px" style="margin: 20px 0px 0px 20px;">
               <tr>
                 <td id="mobno">Upload Photo</td>
                 <td id="em1">Reports suggested by other <br>Doctors</td>
                 <td id="dob">Your Signature</td>
               </tr>
               <tr>
-                <td class="box"><input type="file" placeholder="+91" id="phone" required></td>
-                <td class="box"><input type="file" placeholder="" id="email" required></td>
-                <td class="box"><input type="file"></td>
+                <td class="box"><input type="file" placeholder="+91" id="phone" name="uploadphoto"></td>
+                <td class="box"><input type="file" placeholder="" id="email" name="reports"></td>
+                <td class="box"><input type="file" name="yoursign"></td>
               </tr>
-             
-              <button onclick="resident();" id="btn1" type="submit">Submit</button>
-    </table></form> </div>
-</div>
+              <button type="submit">Upload</button>
+    </table></form> -->
 </div></div></section>
 <script src="registration.js"></script>
 </body>
